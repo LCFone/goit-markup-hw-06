@@ -682,6 +682,7 @@ button:focus {
 }
 
 .footer-form {
+  gap: 24px;
   display: flex;
   flex-direction: column;
 }
@@ -705,7 +706,7 @@ button:focus {
 }
 
 .footer-form-input {
-  gap: 24px;
+  /* gap: 24px; */
 
   width: 264px;
   height: 40px;
@@ -741,7 +742,7 @@ button:focus {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 }
 
 .footer-form-icon {
@@ -749,6 +750,7 @@ button:focus {
   height: 24px;
   margin-left: 16px;
   fill: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 /* `````BACKDROP-MODAL``````` */
@@ -838,44 +840,54 @@ button:focus {
 
 .modal-form-lable {
   position: relative;
-  display: flex;
+  display: block;
   flex-direction: column;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.48px;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
-.modal-form-lable:focus-within .modal-form-input,
-.modal-form-lable:hover-within .modal-form-input {
-  border: 1px solid #4d5ae5;
-  outline: none;
+.modal-icon-form {
+  position: relative;
 }
 
-.modal-form-lable:focus-within .modal-form-icon,
-.modal-form-lable:hover-within .modal-form-icon {
-  fill: #4d5ae5;
-}
-
-.modal-form-lable + .modal-form-lable {
+.modal-lable-form + .modal-lable-form {
   margin-top: 8px;
+  border-color: #4d5ae5;
 }
 
 .modal-form-input {
+  width: 100%;
   height: 40px;
   margin-top: 8px;
-  padding-left: 42;
+  padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   cursor: pointer;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
+  outline: transparent;
 }
 
-.modal-form-icon {
+.modal-form-lable:focus-within .modal-form-input {
+  /* border: 1px solid #4d5ae5; */
+  outline: none;
+  border-color: #4d5ae5;
+}
+
+modal-form-icon {
   position: absolute;
   top: 50%;
   left: 16px;
+  transform: translateY(-50%);
   transition: fill border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-lable:focus-within .modal-form-icon {
+  fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .comment-input {
