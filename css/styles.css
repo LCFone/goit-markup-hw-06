@@ -113,7 +113,6 @@ button:focus {
 }
 
 .logo-link {
-  /* display: flex; */
   margin-right: 76px;
 
   font-family: var(--secondary-font);
@@ -717,7 +716,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15)); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
   border-radius: 4px;
   color: #ffffff;
 }
@@ -771,6 +770,7 @@ button:focus {
   pointer-events: none;
 }
 .modal {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -821,11 +821,12 @@ button:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-box {
+/* .modal-form-box {
   padding: 72px 24px 24px 24px;
-}
+} */
 
 .modal-form-title {
+  gap: 24px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
