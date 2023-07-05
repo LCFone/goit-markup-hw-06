@@ -684,7 +684,6 @@ button:focus {
 .footer-form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .footer-form-txt {
@@ -706,7 +705,7 @@ button:focus {
 }
 
 .footer-form-input {
-  margin-right: 24px;
+  gap: 24px;
 
   width: 264px;
   height: 40px;
@@ -716,14 +715,14 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15)); */
   border-radius: 4px;
   color: #ffffff;
 }
 
 .footer-form-input::placeholder {
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 }
 
 .footer-form-btn {
@@ -742,6 +741,7 @@ button:focus {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-icon {
