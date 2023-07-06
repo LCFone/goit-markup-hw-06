@@ -681,8 +681,8 @@ button:focus {
   fill: #f4f4fd;
 }
 
+/* `````FOOTER-FORM````` */
 .footer-form {
-  gap: 24px;
   display: flex;
   flex-direction: column;
 }
@@ -697,6 +697,7 @@ button:focus {
 }
 
 .footer-form-subscribe {
+  gap: 24px;
   display: flex;
   align-items: center;
 }
@@ -706,8 +707,6 @@ button:focus {
 }
 
 .footer-form-input {
-  /* gap: 24px; */
-
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -716,14 +715,13 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15)); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
   border-radius: 4px;
   color: #ffffff;
 }
 
 .footer-form-input::placeholder {
   color: #ffffff;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 }
 
 .footer-form-btn {
@@ -742,7 +740,6 @@ button:focus {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 }
 
 .footer-form-icon {
@@ -828,7 +825,7 @@ button:focus {
 } */
 
 .modal-form-title {
-  gap: 24px;
+  /* gap: 24px; */
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -839,6 +836,7 @@ button:focus {
 }
 
 .modal-form-lable {
+  /* gap: 24px; */
   position: relative;
   display: block;
   flex-direction: column;
@@ -854,6 +852,7 @@ button:focus {
 }
 
 .modal-lable-form + .modal-lable-form {
+  /* gap: 24px; */
   margin-top: 8px;
   border-color: #4d5ae5;
 }
