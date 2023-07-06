@@ -594,9 +594,6 @@ button:focus {
   transform: translateY(0);
 }
 
-/* ,,,,,buttons portfolio,,,,, */
-/* ,,,,,portfolio,,,,, */
-
 /* `````FOOTER````` */
 .footer {
   padding: 100px 0;
@@ -717,6 +714,7 @@ button:focus {
   padding-left: 16px;
   border-radius: 4px;
   color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
 }
 
 .footer-form-input::placeholder {
@@ -747,7 +745,6 @@ button:focus {
   height: 24px;
   margin-left: 16px;
   fill: rgba(255, 255, 255, 1);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 /* `````BACKDROP-MODAL``````` */
@@ -820,12 +817,7 @@ button:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-form-box {
-  padding: 72px 24px 24px 24px;
-} */
-
 .modal-form-title {
-  /* gap: 24px; */
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -836,7 +828,6 @@ button:focus {
 }
 
 .modal-form-lable {
-  /* gap: 24px; */
   position: relative;
   display: block;
   flex-direction: column;
@@ -876,7 +867,6 @@ button:focus {
 }
 
 .modal-form-lable:focus-within .modal-form-input {
-  /* border: 1px solid #4d5ae5; */
   outline: none;
   border-color: #4d5ae5;
 }
