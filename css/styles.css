@@ -685,7 +685,6 @@ button:focus {
 .footer-form {
   display: flex;
   flex-direction: column;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
 }
 
 .footer-form-txt {
@@ -722,6 +721,7 @@ button:focus {
 
 .footer-form-input::placeholder {
   color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
 }
 
 .footer-form-btn {
