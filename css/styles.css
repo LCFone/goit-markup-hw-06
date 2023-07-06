@@ -767,7 +767,7 @@ button:focus {
 .modal {
   padding: 72px 24px 24px 24px;
   position: absolute;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   top: 50%;
   left: 50%;
   min-height: 584px;
@@ -839,12 +839,8 @@ button:focus {
   margin-bottom: 4px;
 }
 
-.modal-label-form {
-  margin-bottom: 16px;
-}
-
-/* .modal-label-form .modal-form-lable {
-  margin-bottom: 16px;
+/* .modal-label-form {
+  margin-bottom: 8px;
 } */
 
 .modal-form-input::placeholder {
