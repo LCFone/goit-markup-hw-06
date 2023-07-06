@@ -843,9 +843,9 @@ button:focus {
   margin-bottom: 8px;
 }
 
-/* .modal-label-form .modal-form-lable {
+.modal-label-form .modal-form-lable {
   margin-bottom: 16px;
-} */
+}
 
 .modal-form-input::placeholder {
   font-size: 12px;
