@@ -843,10 +843,10 @@ button:focus {
   margin-bottom: 8px;
 }
 
-.modal-form-lable {
+/* .modal-form-lable {
   margin-bottom: 16px;
   display: block;
-}
+} */
 
 .modal-form-input::placeholder {
   font-size: 12px;
