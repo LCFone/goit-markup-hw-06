@@ -701,7 +701,6 @@ button:focus {
 
 .footer-form-lable {
   display: flex;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15)); */
 }
 
 .footer-form-input {
@@ -715,7 +714,7 @@ button:focus {
   padding-left: 16px;
   border-radius: 4px;
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-input::placeholder {
