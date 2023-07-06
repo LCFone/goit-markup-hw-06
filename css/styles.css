@@ -701,6 +701,7 @@ button:focus {
 
 .footer-form-lable {
   display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
 }
 
 .footer-form-input {
@@ -714,7 +715,7 @@ button:focus {
   padding-left: 16px;
   border-radius: 4px;
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 15)); */
 }
 
 .footer-form-input::placeholder {
@@ -925,7 +926,7 @@ button:focus {
   display: block;
   min-width: 169px;
   min-height: 56px;
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   line-height: 1.5;
 
   border-radius: 4px;
