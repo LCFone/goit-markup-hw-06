@@ -828,22 +828,22 @@ button:focus {
   color: #2e2f42;
 }
 
-.modal-form-lable {
+.modal-label-name {
   position: relative;
   display: block;
+  margin-bottom: 4px;
   flex-direction: column;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.48px;
   color: #8e8f99;
-  margin-bottom: 4px;
 }
 
 .modal-label-form {
   margin-bottom: 8px;
 }
 
-.modal-label-form .modal-form-lable {
+.modal-form-lable {
   margin-bottom: 16px;
 }
 
