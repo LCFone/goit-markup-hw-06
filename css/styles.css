@@ -828,7 +828,7 @@ button:focus {
   color: #2e2f42;
 }
 
-.modal-label-name {
+.modal-label-form {
   position: relative;
   display: block;
   margin-bottom: 4px;
@@ -845,6 +845,7 @@ button:focus {
 
 .modal-form-lable {
   margin-bottom: 16px;
+  display: block;
 }
 
 .modal-form-input::placeholder {
