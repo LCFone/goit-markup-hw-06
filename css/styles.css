@@ -915,11 +915,20 @@ button:focus {
   fill: transparent;
 }
 
-.input-checkbox:checked + .modal-checkbox-txt {
+.input-checkbox input:checked + .modal-checkbox .checkbox-form-icon {
+  fill: #f4f4fd;
+}
+
+.input-checkbox input:checked + .modal-checkbox .checkbox-form-icon {
+  background-color: #404bbf;
+  border: none;
+}
+
+/* .input-checkbox:checked + .modal-checkbox-txt {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
+} */
 
 .modal-checkbox-link {
   font-size: 12px;
