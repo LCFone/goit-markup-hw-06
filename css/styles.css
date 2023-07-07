@@ -972,6 +972,6 @@ button:focus {
 
 .modal-form-btn:hover,
 .modal-form-btn:focus {
-  background-color: #188ce8;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
