@@ -827,11 +827,11 @@ button:focus {
   color: #2e2f42;
 }
 
-.modal-label-form {
+.modal-lable-form {
   margin-bottom: 8px;
 }
 
-.modal-form-label {
+.modal-form-lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -853,6 +853,7 @@ button:focus {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-color: #4d5ae5;
 }
 
@@ -864,15 +865,14 @@ button:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* `~`~`~`~`~ LOOOOOOOOK HERE ~`~`~`~`~` */
+/* `~`~`~`~ LOOOOOOOOK HERE ~`~`~`~`~` */
 .modal-form-input + .modal-form-icon {
   fill: #4d5ae5;
 }
 
-/* .modal-label-textarea {
-
+.modal-lable-textarea {
   margin-bottom: 16px;
-} */
+}
 
 /* .modal-form-input::placeholder {
   font-size: 12px;
@@ -939,12 +939,12 @@ button:focus {
   fill: transparent;
 } */
 
-/* .modal-label-form:focus-within .modal-form-input {
+/* .modal-lable-form:focus-within .modal-form-input {
   outline: none;
   border-color: #4d5ae5;
 } */
 
-/* .modal-label-form:focus-within .modal-form-icon {
+/* .modal-lable-form:focus-within .modal-form-icon {
   fill: #4d5ae5;
 } */
 
