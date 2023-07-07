@@ -969,7 +969,11 @@ button:focus {
   height: 16px;
 }
 
-.modal-input-checkbox label .modal-checkbox-txt svg {
+.modal-checkbox-txt {
+  display: inline-flex;
+}
+
+.modal-checkbox-txt .modal-input-checkbox label .modal-checkbox-txt svg {
   display: inline-flex;
   position: absolute;
   top: 0;
@@ -984,7 +988,7 @@ button:focus {
   background-color: #404bbf;
 }
 
-.modal-checkbox input:checked + .modal-checkbox-txt sv {
+.modal-checkbox input:checked + .modal-checkbox-txt {
   fill: #f4f4fd;
 }
 
@@ -992,7 +996,7 @@ button:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal-input-checkbox input:checked + .modal-checkbox .modal-checkbox-txt svg {
+.modal-input-checkbox input:checked + .modal-checkbox .modal-checkbox-txt {
   fill: #f4f4fd;
 }
 
