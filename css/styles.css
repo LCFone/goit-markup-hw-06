@@ -922,11 +922,11 @@ button:focus {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-checkbox input:checked + .modal-checkbox-txt .checkbox-form-icon {
+.input-checkbox:checked + .modal-checkbox-txt .checkbox-form-icon {
   fill: #f4f4fd;
 }
 
-.input-checkbox input:checked + .checkbox-form-icon {
+.input-checkbox:checked + .checkbox-form-icon {
   background-color: #404bbf;
   border: none;
 }
