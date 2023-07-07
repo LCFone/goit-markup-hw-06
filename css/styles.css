@@ -910,7 +910,6 @@ button:focus {
 }
 
 .modal-checkbox {
-  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -968,6 +967,10 @@ button:focus {
   display: inline-block;
   width: 16px;
   height: 16px;
+}
+
+.modal-checkbox {
+  display: inline-flex;
 }
 
 .modal-checkbox-txt .modal-input-checkbox label .modal-checkbox-txt svg {
