@@ -915,11 +915,11 @@ button:focus {
   fill: transparent;
 }
 
-.input-checkbox input:checked + .modal-checkbox-txt .checkbox-form-icon {
+.input-checkbox:checked + .modal-checkbox-txt .checkbox-form-icon {
   fill: #f4f4fd;
 }
 
-.input-checkbox input:checked + .modal-checkbox-txt .checkbox-form-icon {
+.input-checkbox:checked + .checkbox-form-icon {
   background-color: #404bbf;
   border: none;
 }
