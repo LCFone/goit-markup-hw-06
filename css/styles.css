@@ -103,8 +103,8 @@ button:focus {
 }
 
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   margin-left: auto;
   margin-right: auto;
@@ -288,7 +288,7 @@ button:focus {
 
 /* `````MOB MENU`````` */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .mob-menu-open {
     padding: 0;
     display: block;
@@ -298,14 +298,14 @@ button:focus {
     background-color: transparent;
     line-height: 0;
   }
-}
+} */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HOVER TURN ON */
 /* .mob-menu-open:hover,
   .mob-menu-open:focus {
     display: none;
   } */
 
-.mob-menu {
+/* .mob-menu {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -314,16 +314,16 @@ button:focus {
   top: 0;
   left: 0;
   background-color: #fff;
-}
+} */
 
-.mob-menu-container {
+/* .mob-menu-container {
   position: relative;
   padding-left: 40px;
   padding-top: 80px;
   padding-bottom: 40px;
-}
+} */
 
-.mob-menu-close {
+/* .mob-menu-close {
   display: flex;
   position: absolute;
   padding: 0;
@@ -341,9 +341,9 @@ button:focus {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.menu-list {
+/* .menu-list {
   margin-bottom: 26.4vh;
 }
 
@@ -361,9 +361,9 @@ button:focus {
 .menu-address-list {
   display: flex;
   flex-direction: column-reverse;
-}
+} */
 
-.menu-contact {
+/* .menu-contact {
   color: #434455;
   font-size: 20px;
   font-family: var(--primary-font);
@@ -374,9 +374,9 @@ button:focus {
 
 .menu-tel-item {
   margin-bottom: 40px;
-}
+} */
 
-.menu-tel {
+/* .menu-tel {
   color: #4d5ae5;
   font-family: var(--primary-font);
   text-transform: capitalize;
@@ -384,19 +384,19 @@ button:focus {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-}
+} */
 
-.menu-socials {
+/* justify-content: center; */
+/* .menu-socials {
   display: flex;
-  /* justify-content: center; */
   gap: 56px;
 }
 
 .menu-socials-item {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.menu-socials-links {
+/* .menu-socials-links {
   margin-top: 48px;
   display: flex;
   justify-content: center;
@@ -417,12 +417,12 @@ button:focus {
 
 .menu-socials-icons {
   fill: #f4f4fd;
-}
+} */
 
 /* ,,,,,header,,,,, */
 
 /* `````HERO````` */
-/* .hero-section {
+.hero-section {
   margin: 0 auto;
   padding: 188px 0;
 
@@ -470,13 +470,13 @@ button:focus {
   letter-spacing: 0.04em;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 /* ,,,,,hero,,,,, */
 
 /* `````GOALS`````*/
 
-/* .goals-section {
+.goals-section {
   padding: 120px 0;
 }
 
@@ -511,12 +511,12 @@ button:focus {
 }
 .goals-descriprions {
   margin-bottom: 8px;
-} */
+}
 
 /* ,,,,,goals,,,, */
 
 /* `````OPPORTUNITIES`````` */
-/* .opportunities-section {
+.opportunities-section {
   display: none;
 }
 
@@ -549,12 +549,12 @@ button:focus {
 
 .opportunitie-image {
   border: 0.5px #e7e9fc solid;
-} */
+}
 
 /* ,,,,,opportunities,,,,,*/
 
 /* `````TEAM````` */
-/* .team-section {
+.team-section {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
@@ -620,13 +620,13 @@ button:focus {
 
 .socials-icons {
   fill: #f4f4fd;
-} */
+}
 
 /* ,,,,,team,,,,, */
 
 /* `````CUSTOMERS````` */
 
-/* .customers-section {
+.customers-section {
   padding: 120px 0;
 }
 
@@ -672,18 +672,18 @@ button:focus {
 
 .customers-icon {
   fill: currentColor;
-} */
+}
 /* ,,,,,customers,,,,, */
 
 /* `````PORTFOLIO````` */
 
-/* .portfolio-section {
+.portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
-} */
+}
 
 /* `````BUTTONS PORTFOLIO````` */
-/* .list-button {
+.list-button {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -747,7 +747,6 @@ button:focus {
 }
 
 .portfolio-inform {
-
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -782,10 +781,10 @@ button:focus {
 .portfolio-link:hover .overlay-portfolio-txt,
 .portfolio-link:focus .overlay-portfolio-txt {
   transform: translateY(0);
-} */
+}
 
 /* `````FOOTER````` */
-/* .footer {
+.footer {
   padding: 100px 0;
 
   background-color: var(--footer-bg-color);
@@ -866,10 +865,10 @@ button:focus {
 
 .footer-sm-icons {
   fill: #f4f4fd;
-} */
+}
 
 /* `````FOOTER-FORM````` */
-/* .footer-form {
+.footer-form {
   display: flex;
   flex-direction: column;
 }
@@ -934,11 +933,11 @@ button:focus {
   height: 24px;
   margin-left: 16px;
   fill: rgba(255, 255, 255, 1);
-} */
+}
 
 /* `````BACKDROP-MODAL``````` */
 
-/* .backdrop {
+.backdrop {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -1005,10 +1004,11 @@ button:focus {
 
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
+
 /* `````BACKDROP-MODAL-FORM`````` */
 
-/* .modal-form-title {
+.modal-form-title {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -1106,7 +1106,6 @@ button:focus {
   fill: transparent;
 }
 
-
 .input-checkbox:checked + .modal-checkbox span {
   background-color: #404bbf;
   fill: #f4f4fd;
@@ -1155,4 +1154,4 @@ button:focus {
 .modal-form-btn:focus {
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
+}
